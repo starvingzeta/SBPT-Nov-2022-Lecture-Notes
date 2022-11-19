@@ -1,0 +1,119 @@
+  <!--
+    Comments:
+    - ALT+Shift+A -> Quick key to create a comment field.
+    "!" or "Bang" is a way for us to quickly creaye boilerplate for our HTML document.
+    - CTRL + / | -> Quick key to create comment line. 
+    /**/
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+  -DOCTYPE: declares what our document is - an HTML document.
+  -lang: helps determine the language
+  - The head tag hold all our meta data.
+      -holds various information such as the doc title, viewport settings,
+      links to other files - like our CSS file.
+  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0" />
+    <title> Intro to HTML </title> 
+<!--
+    -charset: defines which characters are available: 0-9, A-Z, symbols.
+    -UTF-8 covers almost all characters.
+    - http-equiv: Allows us to render older browser versions
+    -title: details the title of our document. Displayed on the browser tab.
+-->
+  </head>
+  <body>
+    <!--
+        HTTP Methods : (used as data transfer protocol)
+            -GET -getinfo
+            -POST -postcontent
+            -PATCH -fix
+            -PUT -putnewinfo
+            -DELETE -deleteinfo
+    -->
+
+    <!-- 3 major languages 
+            -HTML
+            -CSS
+            -JavaScript
+    -->
+
+    <!-- 
+        Body
+            -What the client will display when rendering
+    -->
+
+  <h1 color: red>Examples of Structural Elements</h1>
+  <div>
+    <div>
+      -h1 heading. these range from h1-h6 which change the size
+      -div: a divison
+      -p: pragaragph
+      -img: image (self-closing)
+      -span: a block of text without line breaks
+    </div>
+
+    <p>Here is a paragraph element</p>
+
+      <span> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, cum vero nulla architecto, natus nisi voluptate, facere magni impedit et fuga in nemo! Deserunt numquam, saepe necessitatibus quo dolore dolorem alias dignissimos ipsum? Labore sed maiores mollitia sit nisi consequatur quisquam dicta optio ipsam amet. Exercitationem voluptates hic dolores corrupti.
+      </span>
+
+      <img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png" alt="Upright Logo">
+      <!-- 
+        img has two main attributes:
+          -src: image url (using emmet ./ it will look through your folder for images)
+          -alt: text for the image
+      -->
+      
+  </div>
+
+    <!-- 
+      emmet example: div>ul>li*6
+
+      ul: unordered list
+      ol: ordered list
+      li: list item
+    -->
+
+  <div>
+    <!-- Pay attention to the elements used here i.e. strong, em, br -->
+    <ul>
+      <li><strong>Bolds or Text</strong> but so does <b>this</b>.</li>
+      <li><em>Provides emphasis</em> or <i>italics</i></li>
+      <li><br> Will do a line break for us. <i> Notice no closing tags <i></li>
+      <li><hr/>Gives us a horizontal rule or <b>dividing line</b></li>
+      <li><blockquote>"Quote"</blockquote></li>
+      <li><pre>A way to showcase code...</pre></li>
+    </ul>
+  </div>
+    <!-- 
+      input: typically used in forms
+        - Logging in, email, passwords,
+      link: wont show up in browser but will help connect to files outside of our doc (like our CSS) (there is an emmet for css)
+      -->
+
+  <input type="text">
+  <input type="number"
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Web Page Structure -->
+  <im src="https://i.pinimg.com/originals/46/e2/1c/46e21c46e7001fca6554cd45562268fa.jpg" alt=""Sample Layout
+
+  <div> <!-- Parent -->
+    <header></header> <!-- Title -->
+    <aside></aside> <!-- Sidebar -->
+    <section>
+          <article>art test</article>
+          <article>art test 2</article>
+    </section>
+    <footer></footer> <!-- Footer -->
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/* 
+    Building Blocks
+    selector {
+        [Decleration Block]
+        property: value;
+
+        ie. decleration = #home
+        we then provide it with value
+
+        Order of Final Response
+            -!important
+            -Inline CSS
+            -ID Selectors
+            -Class Selectors
+            -Element
+    }
+*/
+
+:root /* A way to change the root value of elements and properties */
+
+/* nav is the element that we are targeting from nthe HTML */
+
+nav {
+    /* by targeting nav and putting the background command, it now knows to change the bg for that element */
+    background-color: #9e9d9c;
+    /* alpha determines transperency */
+    overflow: hidden;
+    }
+/* Targeting a Class */
+/* Class is a whole group, a particular class one could say */
+
+.btn {
+    float: right;
+    color:black;
+    text-align: center; /* alligns text to the center */
+    width: 20%;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: none; /* removes hyperlink formatting */
+    font-size: 17px;
+    }  
+
+/* ID */ /* students in a class */
+#home {
+    float: left;
+    color: red !important; /* overrides any other code */
+}
+
+/* Compound Operators:
+    > Refers to direct children of an element
+    , Matching selector
+    + Immediate sibling of an element
+    ~ Subsequent sibling of an element    
+*/
+
+nav .btn {
+    /* Points to the Nava nd ANY class with it, or children of, named "btn" */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 5)
+}
