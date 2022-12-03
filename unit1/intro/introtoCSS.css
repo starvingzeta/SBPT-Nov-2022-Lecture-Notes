@@ -57,3 +57,33 @@ nav .btn {
     /* Points to the Nava nd ANY class with it, or children of, named "btn" */
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 5)
 }
+
+div .paragraph > p {
+    /* targeting any div with a class "paragraph" that is holding a <p> element*/ /* JUST THE ELEMENT */
+    /* sense were being specific this takes priority */
+    color: red;
+}
+
+.paragraph + div {
+    color: purple
+    /* defaultig the color of the div tag */
+    /* because its already been defined in previous line of code its only targeting header */
+}
+
+a:hover {
+    color: lightblue
+    /* will change color when hovering over all anchors */
+}
+
+a:active {
+    color: purple;
+    text-shadow: 2px 2px 2px
+    (255,255,255);;
+
+    /* Copy a block of code in vs code
+        alt+shift+downarrow/uparrow
+        
+        move a block of code 
+        alt+down/up
+    */
+}
